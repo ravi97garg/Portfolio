@@ -113,6 +113,7 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 		color: #e44c65;
 		text-decoration: none;
+		outline: none;
 	}
 
 		a:hover {
@@ -143,6 +144,8 @@ input, select, textarea {
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			border: 0;
+			text-decoration: none;
+			outline: none;
 		}
 
 	h2 {
@@ -3308,6 +3311,7 @@ input, select, textarea {
 
 			.dropotron > li.active > a, .dropotron > li.active > span {
 				color: #e44c65;
+				text-decoration: none;
 			}
 
 		.dropotron.level-0 {
@@ -3384,6 +3388,7 @@ input, select, textarea {
 						height: inherit;
 						line-height: inherit;
 						outline: 0;
+						text-decoration: none;
 					}
 
 						#header nav ul li a.button, #header nav ul li span.button {
@@ -3398,6 +3403,7 @@ input, select, textarea {
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
 						color: #e44c65;
+						text-decoration: none;
 					}
 
 					#header nav ul li > ul {
@@ -3866,6 +3872,7 @@ input, select, textarea {
 					#titleBar .title a {
 						color: inherit;
 						border: 0;
+						text-decoration: none;
 					}
 
 				#titleBar .toggle {
@@ -4080,6 +4087,7 @@ td, th {
 	padding: 8px;
 }
 
-/*tr:nth-child(even) {*/
-	/*background-color: #dddddd;*/
-/*}*/
+textarea {
+	resize: none;
+	height: 100px;
+}
