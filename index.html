@@ -10,7 +10,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />-->
 	</head>
-	<body class="is-preload landing">
+	<body class="is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -18,26 +18,31 @@
 					<h1 id="logo"><a href="index.html">SPYCBANDA</a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button">Download CV</a></li>
+							<!--<li><a href="index.html">Home</a></li>-->
+							<li><a href="#one">Profile</a></li>
+							<li><a href="#two">Academia</a></li>
+							<li><a href="#three">Projects</a></li>
+							<li><a href="#four">Achievements</a></li>
+							<li><a href="#five">Get in Touch</a></li>
+							<!--<li>-->
+								<!--<a href="#">Layouts</a>-->
+								<!--<ul>-->
+									<!--<li><a href="left-sidebar.html">Left Sidebar</a></li>-->
+									<!--<li><a href="right-sidebar.html">Right Sidebar</a></li>-->
+									<!--<li><a href="no-sidebar.html">No Sidebar</a></li>-->
+									<!--<li>-->
+										<!--<a href="#">Submenu</a>-->
+										<!--<ul>-->
+											<!--<li><a href="#">Option 1</a></li>-->
+											<!--<li><a href="#">Option 2</a></li>-->
+											<!--<li><a href="#">Option 3</a></li>-->
+											<!--<li><a href="#">Option 4</a></li>-->
+										<!--</ul>-->
+									<!--</li>-->
+								<!--</ul>-->
+							<!--</li>-->
+							<!--<li><a href="elements.html">Elements</a></li>-->
+							<li><a href="#" class="button primary icon fa-download">Download CV</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -135,7 +140,7 @@
 							<h2>Projects</h2>
 							<p>A Glance</p>
 						</header>
-                        <a style="color: white;text-decoration: none;outline: none;" href="https://gallery.azure.ai/Experiment/delhi-weather-analysis">Delhi Weather Forecast</a>
+                        <a style="color: white;text-decoration: none;outline: none;font-weight: bold" href="https://gallery.azure.ai/Experiment/delhi-weather-analysis">Delhi Weather Forecast</a>
 						<p>Due to a sub-tropical region, the city of Delhi sees a variety of climates. Here I have analyzed and comprehended the 4 year long weather data of Delhi, and forecasted the future trends of the weather using Multi Class Decision Jungle.</p>
 						<ul class="actions">
 							<li><a href="#" class="button">See More Projects</a></li>
@@ -196,13 +201,13 @@
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<img src="images/cert09.png" width="200px" style="margin-top: 65px;margin-bottom: 68px;"/>
 									<h3>LinkedIn</h3>
-									<p>Connected with the world always</p>
+									<p>Connected with the professionals always</p>
 								</section>
 							</div>
 						</div>
 						<footer class="major">
 							<ul class="actions special">
-								<li><a href="#" class="button">View All certificates</a></li>
+								<li><a href="certificates.html" class="button">View All certificates</a></li>
 							</ul>
 						</footer>
 					</div>
@@ -216,23 +221,32 @@
 							<p>“Communication – the human connection – is the key to personal and career success.”
 								– Paul J. Meyer</p>
 						</header>
-						<form method="post" action="#" class="cta">
+						<form method="post" action="#">
 							<div class="row gtr-uniform gtr-50">
-								<div class="col-12 col-12-xsmall">
-									<textarea type="text" name="message" placeholder="Message"></textarea>
-									<br/>
-									<input type="email" name="email" id="email" placeholder="Your Email Address" />
+								<div class="col-6 col-12-xsmall">
+									<input type="text" name="name" id="name" value="" placeholder="Name" />
 								</div>
-							</div>
-							<br/>
-							<div class="col-8 col-12-xsmall">
-								<div class="col-4 col-12-xsmall">
-									<input type="submit" value="Send" class="fit primary" />
+								<div class="col-6 col-12-xsmall">
+									<input type="email" name="email" id="email" value="" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+								<div>
+									<input type="checkbox" id="copy" name="copy">
+									<label for="copy">Email me a copy of this message</label>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
 								</div>
 							</div>
 						</form>
 					</div>
 				</section>
+
 
 			<!-- Footer -->
 				<footer id="footer">
@@ -240,7 +254,7 @@
 						<li><a href="https://twitter.com/full2hd" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://www.facebook.com/profile.php?id=100007798242487" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="https://www.linkedin.com/in/ravi-garg-6b7797164/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://plus.google.com/105075757841609050308" class="icon alt fa-google-plus-g"><span class="label">Google Plus</span></a></li>
+						<li><a href="https://plus.google.com/105075757841609050308" class="icon alt fa-google-plus"><span class="label">Google Plus</span></a></li>
 						<li><a href="https://github.com/ravi97garg" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
 						<li><a href="mailto:ravi97garg@gmail.com" class="icon alt fa-envelope"><span class="label">Gmail</span></a></li>
 					</ul>
